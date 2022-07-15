@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+#middle2 {
+    background-image: url('../img/background.jpeg');
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+
+.servicedashboard {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+
+}
+
+.servicedashboard table {
+    margin-bottom: 0px;
+}
+
+#middle2 h1 {
+    padding: 80px;
+}
+
+#middle2 h2{
+    padding: 50px;
+}
+
+#middle3 {
+    background-image: url('../img/background.jpeg');
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+
+}
+
+#middle3 h1 {
+    padding: 100px;
+}
+
+#middle3 h2{
+    padding: 50px;
+}
+
+#middle4 {
+    background-image: url('../img/background.jpeg');
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+
+}
+
+#middle4 h1 {
+    padding: 100px;
+}
+
+#middle4 h2{
+    padding: 50px;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    float: left;
+    font-family: Lucida Sans Regular;
+    color: #fff;
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+#main {
+    background-image: url('../img/background.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.titletwo h1 {
+    margin-top: 200px;
+}
+
+
+.button2 {
+    margin: 0, 45, 0, 0;
+
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}

@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    float: left;
+    font-family: Lucida Sans Regular;
+    color: #fff;
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+#main {
+    background-image: url('../img/background.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#middle2 {
+    background-image: url('../img/background.jpeg');
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+
+}
+
+
+.title {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+
+.titletwo h1 {
+    margin-top: 200px;
+}
+
+
+.button2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
